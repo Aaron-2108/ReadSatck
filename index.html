@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReadStack</title>
+    <link rel="icon" href="Readstack1.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <div class="navbar">
+        <h1>ReadStack</h1>
+    </div>
+    <div class="container">
+        <div class="book-container">
+            <h2>Rich dad poor dad</h2>
+            <h5>Robert</h5>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam quas voluptatem iusto commodi harum quisquam eos voluptas, cumque voluptatum porro non soluta culpa, quis a fugiat! Delectus assumenda ducimus vel?</p>
+    
+        <button onclick="deletebook(event)">Delete</button>
+        </div>
+
+    </div>
+
+    <div class="popup-overlay"></div>
+
+    <div class="popup-box">
+        <h2>Add book</h2>
+        <form>
+            <input placeholder="book-title" id="book-title-input">
+            <input placeholder="book-author" id="book-author-input">
+            <textarea placeholder="short-description" id="book-description-input"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-popup">Cancel</button>
+        </form>
+    </div>
+    <button class="add-button" id="add-popup-button">+</button>
+    <script src="script.js">
+
+    </script>
+</body>
+
+
+</html>
